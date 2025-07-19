@@ -65,13 +65,20 @@ img {
     width: 150px;
 }
 
+.card > img{
+    border: 5px solid #0165E1
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8
 }
 
+h1 {
+    font-size: 48px
+}
+
 .hero-main-text {
-    font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
     margin-bottom: -20px
@@ -85,4 +92,25 @@ img {
     padding: 8px 24px;
     color: white;
     font-weight: 600;
+}
+
+.more-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-more {
+    color: #1f2937;
+    font-weight: 700px;
+    font-size: 36px
+}
+
+.card-container {
+    display: flex;
+    gap: 48px;
+    flex-direction: row;
+    width: 100%;
 }
