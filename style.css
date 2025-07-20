@@ -10,14 +10,14 @@ html, body {
     flex-direction: column;
     justify-content: center;
     font-family: Roboto, sans-serif; 
-    gap: 36px
+    gap: 100px
 }
 
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 30px;
     gap: 48px;
     color: white;
     background-color: #1f2937;
@@ -69,12 +69,17 @@ a {
 }
 
 img {
-    height: auto;
-    width: 150px;
+    height: 200px;
+    width: 300px;
 }
 
 .card > img{
-    border: 5px solid #0165E1
+    border: 5px solid #1f2937;
+    flex: auto;
+    width: 100%;
+    min-width: 200px;
+    max-width: 350px;
+
 }
 
 .logo {
@@ -122,6 +127,9 @@ button {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+
 }
 
 .quote-container {
@@ -206,4 +214,32 @@ button {
 
 * {
     box-sizing: border-box
+}
+
+.header-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.orange-cat {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header-image > img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    height: auto;
+}
+
+.breed-name {
+    font-size: 24px;
+    font-weight: 300;
+    color: #1f2937;
+    justify-self: center;
 }
