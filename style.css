@@ -112,5 +112,39 @@ h1 {
     display: flex;
     gap: 48px;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
+}
+
+.quote-container {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 36px;
+    height: 300px;
+}   
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#name {
+    align-self: flex-end;
+    font-weight: 700;
+    color: #1f2937;
+    font-size: 24px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+
 }
