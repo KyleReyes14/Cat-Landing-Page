@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     font-family: Roboto, sans-serif; 
+    gap: 36px
 }
 
 .header {
@@ -84,7 +85,7 @@ h1 {
     margin-bottom: -20px
 }
 
-.register {
+button {
     background-color: #0165E1;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -147,4 +148,46 @@ h1 {
     font-style: italic;
     color: #1f2937;
 
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.modal {
+    background-color: #0165E1;
+    color: white;
+    padding: 36px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    border: 1px transparent;
+    border-radius: 10px
+}
+
+.text-modal-header {
+    font-size: 24px;
+    font-weight: 700
+}
+
+.text-description {
+    font-size: 16px;
+    color: e5e7eb
+}
+
+.modal-button {
+    border: 2px solid white;
+    border-radius: 5px
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 12px;
+    padding: 8px 100px;
+    display: flex;
+    justify-content: center;
 }
